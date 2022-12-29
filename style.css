@@ -1,0 +1,241 @@
+/*==============FONTS==============*/
+@font-face {
+    font-family: 'EditorialNew-Medium';
+    src: url(fonts/EditorialNew-Medium.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'EditorialNew-Thin';
+    src: url(fonts/EditorialNew-Thin.ttf) format(truetype);
+}
+
+/*==============ALL PAGES==============*/
+* {
+    padding: 0;
+    margin: 0;
+    cursor: none;
+}
+
+/*==============BODY==============*/
+body{
+    background-color: #f7f5dc;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+/*=============="HEADER"==============*/
+ul{
+    text-align: center;
+}
+
+ul li{
+    
+    display: inline-block;
+    line-height: 150px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 40px;
+    font-family: "EditorialNew-Medium";
+    color: black;
+    padding: 0 50px;
+}
+
+ul li a:hover{
+    color: blue;
+}
+
+ul li a.home {
+    text-decoration: none;
+    font-size: 40px;
+    font-family: "EditorialNew-Medium";
+    color: blue;
+    padding: 0 50px;
+}
+
+ul li a.work {
+    text-decoration: none;
+    font-size: 40px;
+    font-family: "EditorialNew-Medium";
+    color: blue;
+    padding: 0 50px;
+}
+
+ul li a.about {
+    text-decoration: none;
+    font-size: 40px;
+    font-family: "EditorialNew-Medium";
+    color: blue;
+    padding: 0 50px;
+}
+
+ul li a.contact {
+    text-decoration: none;
+    font-size: 40px;
+    font-family: "EditorialNew-Medium";
+    color: blue;
+    padding: 0 50px;
+}
+
+p{
+    position: relative;
+}
+
+/*==============HOME PAGE==============*/
+
+p.welcome{
+    font-size: 80px;
+    font-family: "EditorialNew-Medium";
+    color: black; 
+    text-align: center;
+    padding-right: 350px;
+}
+
+p.name-is{
+    font-size: 80px;
+    font-family: "EditorialNew-Medium";
+    color: black; 
+    text-align: center;
+    padding-left: 400px;
+}
+
+p.awesome-website{
+    font-size: 20px;
+    font-family: "EditorialNew-Medium";
+    color: black; 
+    text-align: center;
+    padding-left: 400px;
+}
+
+p.links{
+    font-size: 20px;
+    font-family: "EditorialNew-Medium";
+    color: black; 
+    position: absolute;
+    padding-left: 100px;
+    padding-top: 150px;
+}
+
+.link{
+    text-decoration: none;
+    list-style: none;
+    color: blue;
+}
+
+p.links-a{
+    font-size: 20px;
+    font-family: "EditorialNew-Medium";
+    color: black; 
+    position: absolute;
+    right: 0;
+    padding-right: 100px;
+    padding-top: 175px;
+}
+
+/*==============CONTACT PAGE==============*/
+p.would-love{
+    font-size: 80px;
+    font-family: "EditorialNew-Medium";
+    color: black; 
+    text-align: center;
+    padding-right: 250px;
+}
+
+p.to-work{
+    font-size: 80px;
+    font-family: "EditorialNew-Medium";
+    color: black; 
+    text-align: center;
+    padding-left: 300px;
+}
+
+p.money{
+    font-size: 20px;
+    font-family: "EditorialNew-Medium";
+    color: black; 
+    text-align: center;
+    padding-left: 300px;
+}
+
+p.contacts{
+    font-size: 20px;
+    font-family: "EditorialNew-Medium";
+    color: black; 
+    position: absolute;
+    padding-left: 100px;
+}
+
+.linkedin{
+    text-decoration: none;
+    list-style: none;
+    color: blue;
+}
+
+p.thanku{
+    font-size: 20px;
+    font-family: "EditorialNew-Medium";
+    color: black; 
+    position: absolute;
+    right: 0;
+    padding-right: 100px;
+}
+
+p.pls{
+    font-size: 40px;
+    font-family: "EditorialNew-Medium";
+    color: black; 
+    text-align: center;
+    padding-bottom: 35px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+/*==============ABOUT PAGE==============*/
+p.about-information{
+    font-size: 80px;
+    font-family: "EditorialNew-Medium";
+    color: black; 
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 300px;
+    padding-bottom: 200px;
+}
+
+p.portugal{
+    font-size: 20px;
+    font-family: "EditorialNew-Medium";
+    color: black; 
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+
+p.ines{
+    font-size: 20px;
+    font-family: "EditorialNew-Medium";
+    color: black; 
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 550px;
+    padding-bottom: 100px;
+}
+
+p.not-interesting{
+    font-size: 20px;
+    font-family: "EditorialNew-Medium";
+    color: black; 
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 150px;
+    padding-bottom: 300px;
+}
